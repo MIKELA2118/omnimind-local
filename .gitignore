@@ -1,0 +1,54 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+/secrets/
+/credentials/
+.netrc
+.pypirc
+.venv/
+venv/
+ENV/
+env/
+*.pem
+*.p12
+*.pfx
+*.key
+*.private
+*.secret
+*.secrets
+id_rsa*
+id_ed25519*
+
+# Runtime data, databases, and logs
+data/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+
+# Python caches and test/coverage output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and installer output
+/build/
+/dist/
+/dist-*/
+/release/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
